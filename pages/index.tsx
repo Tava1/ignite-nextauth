@@ -4,8 +4,8 @@ import { AuthContext } from '../contexts/AuthContext';
 import styles from '../styles/Home.module.css'
 
 const Home: NextPage = () => {
-  const [email, setEmail] = useState('teste@gmail.com');
-  const [password, setPassword] = useState('123123');
+  const [email, setEmail] = useState('diego@rocketseat.team');
+  const [password, setPassword] = useState('123456');
 
   const { signIn } = useContext(AuthContext)
 
